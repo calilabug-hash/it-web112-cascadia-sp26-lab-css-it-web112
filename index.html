@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Styles</title>
+        <!-- TODO: Update author content -->
+    <meta name= "author" content="change to your name"> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" sizes="16x16" href="_images/kody.svg">
+
+    <style>
+      /* Begin Embedded Styles */
+
+
+      /* End Embedded Styles */
+    </style>
+    
+    <!-- Add Stylesheet link in the <head> of the page -->
+    
+  </head> 
+    <body>
+      <h1>Cascading StyleSheets (CSS) - Anatomy of a Style</h1>
+      <p>In CSS there are three ways to apply styles to an HTML page or pages: (1)&nbsp;inline styles, (2)&nbsp;internal styles, and (3)&nbsp;style sheets. All these ways use CSS Rules which are statements about a particular stylistic aspect of an element or elements.</p>
+      <h2>Example of a Rule</h2>
+      
+      <p>A Rule consists of two parts: Selector - that part before 
+      the left curly brace, and Declaration - that part within the curly braces</p>
+      <p>h1 { color:red }</p>
+
+      <h2>Examples of a Declaration</h2>
+
+      <p>A declaration has two parts separated by a colon: Property - that 
+      part before the colon Value - that part after the colon</p>
+      <p>color:red</p> 
+<!-- TODO: add the following inline style into the <h2> tab
+           style="color: #CC0000;"
+          -->
+      <h2 >Grouping Selectors</h2>
+      <p>Group the selectors into a comma-separated list and only write the declaration</p>
+      <ul>
+        <li>h1 { font-weight: bold }</li>
+        <li>h2 { font-weight: bold }</li> 
+        <li>h3 { font-weight: bold }  becomes:</li> 
+        <li>h1, h2, h3 { font-weight: bold } </li>
+      </ul>
+<!-- TODO: add the following inline style into the <h2> tab
+           style="color: #CC0000;"
+          -->
+      <h2>Grouping Declarations</h2>
+      <p>CSS rules often have more that one declaration</p>
+      <p>Group declarations that relate to the same selector into a semicolon-separated list</p>
+      <ul>
+        <li>h1 { color: red } </li>
+        <li>h1 ( text-align: center }  becomes:</li>
+        <li>h1 { color: red; text-align: center; }</li>
+      </ul>     
+  </body>
+</html>
